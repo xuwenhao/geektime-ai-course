@@ -1,5 +1,7 @@
 # Geektime AI Course
 
+See https://time.geekbang.org/column/intro/100541001
+
 Jupyter Notebooks for Geektime AI Course
 
 ```
