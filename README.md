@@ -10,5 +10,5 @@ For large data files, you could download through the following information:
 ```
 conda create -n geektime python=3.10
 conda activate geektime
-conda env update --file environment.yml
+conda env update --file conda-env.yml
 ```
