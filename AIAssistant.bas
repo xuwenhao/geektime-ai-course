@@ -1,4 +1,4 @@
-Attribute VB_Name = "Ä£¿é1"
+Attribute VB_Name = "Ä£ï¿½ï¿½1"
 Option Explicit
 
 Sub GetOpenAIResults()
@@ -20,7 +20,7 @@ Sub GetOpenAIResults()
     Set wb = ThisWorkbook
     Set ws = wb.ActiveSheet
     lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
-    apiKey = "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"
+    apiKey = "YOUR OPENAI API KEY HERE"
     url = "https://api.openai.com/v1/engines/text-davinci-003/completions"
 
     
