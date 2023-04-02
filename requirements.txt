@@ -16,7 +16,7 @@ backoff @ file:///home/conda/feedstock_root/build_artifacts/backoff_166500476473
 beautifulsoup4 @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-cdiouih5/beautifulsoup4_1650462164803/work
 bleach @ file:///opt/conda/conda-bld/bleach_1641577558959/work
 brotlipy @ file:///Users/runner/miniforge3/conda-bld/brotlipy_1666764961872/work
-certifi==2022.12.7
+certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_477u68wvzm/croot/certifi_1671487773341/work/certifi
 cffi @ file:///Users/runner/miniforge3/conda-bld/cffi_1671179414629/work
 charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1661170624537/work
 click @ file:///home/conda/feedstock_root/build_artifacts/click_1666798198223/work
@@ -60,6 +60,7 @@ huggingface-hub @ file:///home/conda/feedstock_root/build_artifacts/huggingface_
 hyperframe==6.0.1
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
 importlib-metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1679167925176/work
+iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
 ipykernel @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_4dybncc18w/croot/ipykernel_1671488388285/work
 ipython @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_5d1j6t_z43/croot/ipython_1676584167910/work
 ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
@@ -115,6 +116,7 @@ pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
 Pillow==9.4.0
 platformdirs @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_7fs8_2xgrm/croots/recipe/platformdirs_1662711383474/work
 plotly @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_b7601a7c-071f-4424-ad46-f00f32c1766ccwgx0ywh/croots/recipe/plotly_1658160061089/work
+pluggy @ file:///opt/concourse/worker/volumes/live/8277900c-164a-49c8-6f2a-f55c3c0154be/volume/pluggy_1648042581708/work
 pooch @ file:///tmp/build/80754af9/pooch_1623324770023/work
 prometheus-client @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_19kjbndib7/croots/recipe/prometheus_client_1659455105394/work
 prompt-toolkit @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_82emz7mook/croot/prompt-toolkit_1672387300396/work
@@ -122,6 +124,7 @@ protobuf==3.20.3
 psutil @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_c9b604bf-685f-47f6-8304-238e4e70557e1o7mmsot/croots/recipe/psutil_1656431274701/work
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+py @ file:///opt/conda/conda-bld/py_1644396412707/work
 pyarrow==8.0.0
 pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1636257122734/work
 pydantic @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_90fvnva4_f/croot/pydantic_1667416137634/work
@@ -131,6 +134,7 @@ pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_16726592
 pyparsing @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3a17y2delq/croots/recipe/pyparsing_1661452538853/work
 pyrsistent @ file:///Users/builder/ci_310/pyrsistent_1642541562041/work
 PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+pytest==7.1.2
 python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/python-dateutil_1626286286081/work
 python-multipart @ file:///home/conda/feedstock_root/build_artifacts/python-multipart_1679167423335/work
 pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1673864280276/work
