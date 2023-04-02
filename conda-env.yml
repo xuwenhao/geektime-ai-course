@@ -292,7 +292,7 @@ dependencies:
       - icetk==0.0.7
       - joblib==1.2.0
       - langchain==0.0.121
-      - llama-index==0.4.36
+      - llama-index==0.5.4
       - lxml==4.9.2
       - marshmallow==3.19.0
       - marshmallow-enum==1.5.1
