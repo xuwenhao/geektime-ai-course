@@ -12,3 +12,9 @@ conda create -n geektime python=3.10
 conda activate geektime
 conda env update --file conda-env.yml
 ```
+
+
+Or you could use pip as well
+```
+pip install -r requirements.txt
+```
