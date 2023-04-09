@@ -1,2 +1,7 @@
 .DS_Store
 .ipynb_checkpoints
+data/podcast_clip_*.mp3
+data/podcast_long.*
+data/paddlespeech*.wav
+data/tts.*
+data/transcripts
