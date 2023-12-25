@@ -1,7 +1,7 @@
 FROM python:3.10
 
 RUN pip install --no-cache-dir --upgrade pip
-RUN apt update && apt install -y zsh curl git sudo wget
+RUN apt update && apt install -y zsh curl git sudo wget vim
 
 ARG USERNAME=vscode
 ARG USER_UID=1000
