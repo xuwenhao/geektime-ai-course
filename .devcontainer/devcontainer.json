@@ -33,7 +33,8 @@
         }
     },
     "containerEnv": {
-        "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}"
+        "OPENAI_API_KEY": "${localEnv:OPENAI_API_KEY}",
+        "JUPYTER_HOME": "${localEnv:JUPYTER_HOME}"
     },
     // Features to add to the dev container. More info: https://containers.dev/features.
     // "features": {},
