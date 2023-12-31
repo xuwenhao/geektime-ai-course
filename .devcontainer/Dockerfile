@@ -17,6 +17,10 @@ USER $USERNAME
 
 RUN cd ~ && wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh && sh install.sh
 
+# Create and activate a Python virtual environment
+RUN python -m venv ~/venv
+RUN echo "source ~/venv/bin/activate" >> ~/.zshrc
+
 RUN echo "export PYTHONPATH=\$PYTHONPATH:/workspace" >> ~/.zshrc
 RUN /bin/zsh ~/.zshrc
 
