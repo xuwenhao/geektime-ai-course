@@ -13,10 +13,11 @@ RUN groupadd --gid $USER_GID $USERNAME \
 RUN usermod -aG sudo $USERNAME
 RUN echo 'vscode ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
-ENV DEBIAN_FRONTEND=dialog
-
 USER $USERNAME
 
 RUN cd ~ && wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh && sh install.sh
+
 RUN echo "export PYTHONPATH=\$PYTHONPATH:/workspace" >> ~/.zshrc
 RUN /bin/zsh ~/.zshrc
+
+ENV DEBIAN_FRONTEND=dialog
