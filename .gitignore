@@ -1,7 +1,13 @@
 .DS_Store
+.env
 .ipynb_checkpoints
+cc.en.300.bin
 data/podcast_clip_*.mp3
 data/podcast_long.*
 data/paddlespeech*.wav
 data/tts.*
 data/transcripts
+data/*.jsonl
+data/20_newsgroup.csv
+data/output.png
+data/toutiao_cat_data.txt.zip
