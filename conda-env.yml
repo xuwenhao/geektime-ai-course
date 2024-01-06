@@ -266,7 +266,7 @@ dependencies:
       - marshmallow-enum==1.5.1
       - mypy-extensions==1.0.0
       - protobuf==3.18.3
-      - sentencepiece==0.1.95
+      - sentencepiece==0.1.98
       - sqlalchemy==1.4.47
       - tenacity==8.2.2
       - tokenizers==0.13.2
