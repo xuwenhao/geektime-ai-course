@@ -21,7 +21,7 @@ Sub GetOpenAIResults()
     Set ws = wb.ActiveSheet
     lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
     apiKey = "YOUR OPENAI API KEY HERE"
-    url = "https://api.openai.com/v1/engines/text-davinci-003/completions"
+    url = "https://api.openai.com/v1/engines/gpt-3.5-turbo-instruct/completions"
 
     
     'Loop through each row in column A
